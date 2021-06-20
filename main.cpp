@@ -1114,7 +1114,7 @@ static void display(void)
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
     gluLookAt(eyeX,eyeY,eyeZ, lookX,lookY,lookZ, 0,1,0);
-    //glViewport(0, 0, width, height);
+    glViewport(0, 0, width, height);
     //axes();
 
     Light1(-15+1,12,-7);
